@@ -147,20 +147,6 @@ education:
     end: "2018"
 
 projects:
-  - title: NerdSidekiq
-    category: macOS app
-    image: /images/projects/nerdsidekiq.jpg
-    stack: Swift · Python · Electron
-    description: >-
-      An interview copilot for macOS — a floating overlay that hears both
-      sides of the call, transcribes locally, and streams live answers from
-      your own Claude account. Or it plays the interviewer and coaches you
-      before the real thing. Free and open source.
-    tech_stack: [Swift, Python, Electron, whisper.cpp, Claude]
-    link:
-      label: nerdsidekiq.com
-      href: https://nerdsidekiq.com/
-
   - title: Liburna
     category: AI integration
     image: /images/projects/liburna.jpg
