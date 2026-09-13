@@ -3,10 +3,10 @@
  *
  * Page views, dwell time and engagement (active time, attention time, scroll
  * depth, whether the visitor moved, scrolled, tapped or typed) come from the
- * shared trackhub tracker at /trk/t.js, which every site now loads. This file
- * used to carry its own copy of that logic; four copies drifted apart and one
- * of them silently dropped every visitor's client context, which is why there
- * is now exactly one.
+ * shared trackhub tracker at track.cyberjosef.dev/t.js, which every site now
+ * loads. This file used to carry its own copy of that logic; four copies
+ * drifted apart and one of them silently dropped every visitor's client
+ * context, which is why there is now exactly one.
  *
  * What stays here is site-specific: `cta_click` for elements marked
  * `data-track-cta`, and `form_field` the first time each form field is filled
@@ -20,7 +20,7 @@
 import { router } from '@inertiajs/react'
 import FingerprintJS from '@fingerprintjs/fingerprintjs'
 
-const TRACKER_SRC = import.meta.env.VITE_TRACKHUB_SCRIPT ?? 'https://cyberjosef.dev/trk/t.js'
+const TRACKER_SRC = import.meta.env.VITE_TRACKHUB_SCRIPT ?? 'https://track.cyberjosef.dev/t.js'
 
 /** localStorage key for the visitor token. Unchanged, so returning visitors
  *  stay the same visitor rather than all looking new on deploy day. */
