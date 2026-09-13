@@ -146,6 +146,10 @@ education:
     start: "2013"
     end: "2018"
 
+# Each card's href carries a trackhub link code, so the destination site can
+# tell a visitor who came off this page from one who arrived any other way.
+# The codes are named at track.cyberjosef.dev/tracks — they are opaque on
+# purpose, and the visible label stays the bare domain.
 projects:
   - title: Liburna
     category: AI integration
@@ -158,7 +162,7 @@ projects:
     tech_stack: [Ruby on Rails, Inertia, React, Tailwind, Kamal]
     link:
       label: liburna.cc
-      href: https://liburna.cc/
+      href: https://liburna.cc/?t=za76
 
   - title: Sick Stuff Shop
     category: E-commerce
@@ -171,7 +175,7 @@ projects:
     tech_stack: [Ruby on Rails, Inertia, React, SQLite, Kamal]
     link:
       label: sickstuff.shop
-      href: https://sickstuff.shop/
+      href: https://sickstuff.shop/?t=cqze
 
   - title: Dawn Glasses
     category: Direct to consumer
@@ -184,7 +188,7 @@ projects:
     tech_stack: [Ruby on Rails, Inertia, React, Motion, Kamal]
     link:
       label: trydawn.us
-      href: https://trydawn.us/glasses
+      href: https://trydawn.us/glasses?t=ufnc
 
   - title: buildcv
     category: Side project
@@ -197,4 +201,4 @@ projects:
     tech_stack: [Next.js, React, shadcn/ui, SQLite, Puppeteer]
     link:
       label: buildcv.cc
-      href: https://buildcv.cc/
+      href: https://buildcv.cc/?t=ag9x
