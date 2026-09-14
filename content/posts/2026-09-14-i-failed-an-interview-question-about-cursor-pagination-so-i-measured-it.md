@@ -3,6 +3,7 @@ title: "I failed an interview question about cursor pagination, so I measured it
 summary: "The question was how cursor based pagination works in Shopify, and whether it needs an index or a UUID primary key. I did not know. So I went home and ran EXPLAIN ANALYZE until I did."
 date: 2026-09-14
 tags: [postgres, sql, pagination]
+cover_image: /images/posts/i-failed-an-interview-question-about-cursor-pagination-so-i-measured-it/cover.webp
 status: published
 ---
 
